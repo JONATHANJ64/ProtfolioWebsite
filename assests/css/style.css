@@ -88,6 +88,7 @@ img{
 .navbar .nav-link.active{
     color: var(--color-brand);
 }
+
 @media(min-width: 992px){
     .navbar {
     min-height: 100vh;
@@ -96,20 +97,20 @@ img{
     background-size: cover;
     background-position: center;
     }
-@media (max-width: 768px) {
-    .navbar.fixed-top {
-      position: static;
+}
+
+@media (min-width: 992px) {
+    #content-wrapper {
+      padding-left: 270px;
     }
-  }  
+  }
+  
 
 .navbar-brand img{
     border: 8px solid var(--color-brand);
     }
-}
+
 /* Content Wrapper*/
-#content-wrapper{
-    padding-left: var(--sidebar-width);
-}
 
 /* BTN */
 .btn {
