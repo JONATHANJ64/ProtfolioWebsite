@@ -52,16 +52,6 @@ img{
     padding-bottom: 80px;
     border-bottom: 2px solid rgba(255,255,255,0.1);
 }
-.small-height {
-     min-height: 100vh; /* Adjusted to be smaller than .full-height */
-     height: auto; /* Allow height to adjust based on content */
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     padding-top: 40px; /* Adjust padding as needed */
-     padding-bottom: 40px; /* Adjust padding as needed */
-     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
- }
 
 .shadow-effect {
     transition: all 0.5s;
